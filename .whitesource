@@ -6,6 +6,8 @@
       "enabled": true,
       "minVulnerabilitySeverity":"LOW"
     },
-    "platformCommit": true
+    "platformCommit": true,
+    "enableRenovate": true,
+    "extends": ["github>whitesource/merge-confidence:beta"]
   }
 }
