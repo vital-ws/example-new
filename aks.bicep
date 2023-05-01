@@ -6,7 +6,7 @@ param location string = resourceGroup().location
 
 var name = 'bicepgoat'
 
-resource aksCluster 'Microsoft.ContainerService/managedClusters@2021-02-01' = {
+resource aksCluster 'Microsoft.ContainerService/managedClusters@2023-03-01' = {
   name: '${name}-aks-${env}'
   location: location
 
